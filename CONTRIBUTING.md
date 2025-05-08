@@ -1,16 +1,25 @@
 # CONTRIBUTING
 
-## Prerequisites
+## Software Requirements & Prerequisites
 
-- [Kubernetes Cluster](https://kubernetes.io)
-- [Git](https://git-scm.com/downloads)
-- [Go](https://golang.org/dl/)
-- [Docker](https://docs.docker.com/install/)
-- [Operator SDK](https://github.com/operator-framework/operator-sdk/releases)
-- [Make](https://www.gnu.org/software/make/manual/make.html)
-- [Eksctl](https://eksctl.io/)
+- **[Kubernetes Cluster](https://kubernetes.io)**: Version 1.22 or higher
+- **[Git](https://git-scm.com/downloads)**: Version 2.30 or higher
+- **[Go](https://golang.org/dl/)**: Version 1.19 or higher
+- **[Docker](https://docs.docker.com/install/)**: Version 20.10 or higher 
+- **[Operator SDK](https://github.com/operator-framework/operator-sdk/releases)**: Version 1.25.0 or higher
+- **[Make](https://www.gnu.org/software/make/manual/make.html)**: Version 4.0 or higher
+
+### Development Tools
+- **[Operator SDK](https://sdk.operatorframework.io/docs/installation/)**: Version 1.25.0 or higher
+- **[Helm](https://sdk.operatorframework.io/docs/installation/)**: Version 3.8.0 or higher
+- **[kubectl](https://sdk.operatorframework.io/docs/installation/)**: Version 1.22 or higher
+- **[eksctl](https://eksctl.io/)**: Version 0.114.0 or higher (for AWS EKS development)
+
+
+Note: These versions are the minimum required versions. Using the latest stable versions is recommended for the best development experience.
 
 ## Local Kubernetes Cluster
+//k3d
 
 For development and testing of operator on local system, we need to set up a [Minikube](https://minikube.sigs.k8s.io/docs/start/) or local Kubernetes cluster.
 
